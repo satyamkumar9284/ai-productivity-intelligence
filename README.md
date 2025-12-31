@@ -1,4 +1,4 @@
-#ai-productivity-intelligence
+ai-productivity-intelligence
 
 ## Problem
 Many students feel stressed and unproductive but don't know why. 

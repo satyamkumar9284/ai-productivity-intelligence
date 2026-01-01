@@ -1,3 +1,4 @@
+# Simple study analysis logic for project foundation
 def analyze_day(study_hours):
     if study_hours < 2:
         return "Bad day"

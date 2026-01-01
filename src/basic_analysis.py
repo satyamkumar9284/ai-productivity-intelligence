@@ -1,4 +1,4 @@
-def analyze_day(study_hours, sleep_hours):
+def analyze_day(study_hours):
     if study_hours < 2:
         return "Very Low Study – High Risk"
     elif study_hours < 4:

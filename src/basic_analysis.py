@@ -1,3 +1,5 @@
+import csv
+
 def analyze_day(study_hours):
     if study_hours < 2:
         return "Very Low Study – High Risk"
@@ -8,6 +10,9 @@ def analyze_day(study_hours):
 
 
 if __name__ == "__main__":
-    study = float(input("Enter study hours today: "))
-    result = analyze_day(study)
-    print("Analysis:", result)
+    with open("data/sample_days.csv", newline="") as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            study = float(row["study_hours"])
+            result = analyze_day(study)
+            print(f"Study: {study} hrs → {result}")

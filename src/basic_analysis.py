@@ -1,5 +1,5 @@
 # Simple study analysis logic for project foundation
-def analyze_day(study_hours):
+def analyze_study_hours(study_hours):
     if study_hours < 2:
         return "Bad day"
     elif study_hours < 4:
@@ -9,6 +9,7 @@ def analyze_day(study_hours):
 
 
 if __name__ == "__main__":
-    print(analyze_day(1))
-    print(analyze_day(3))
-    print(analyze_day(5))
+print(analyze_study_hours(1))
+print(analyze_study_hours(3))
+print(analyze_study_hours(5))
+

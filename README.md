@@ -15,3 +15,12 @@ and helps me secure an internship.
 - Machine Learning (later)
 - FastAPI (later)
 - React (later)
+
+- ## Current Progress
+
+- Created project structure with clear folders
+- Implemented a basic study-hours analysis function
+- Improved function naming for readability
+- Enhanced output messages for clarity
+- Following a daily disciplined development approach
+

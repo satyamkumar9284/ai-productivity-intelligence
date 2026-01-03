@@ -1,11 +1,11 @@
 # Simple study analysis logic for project foundation
 def analyze_study_hours(study_hours):
     if study_hours < 2:
-        return "Bad day"
+       return "Low study hours – needs improvement"
     elif study_hours < 4:
-        return "Okay day"
+       return "Moderate study hours – acceptable"
     else:
-        return "Good day"
+       return "Good study hours – productive day"
 
 
 if __name__ == "__main__":
